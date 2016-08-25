@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		565C48931D65977B0084E312 /* NEUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565C48921D65977B0084E312 /* NEUViewController.m */; };
+		565C48971D6597E40084E312 /* NEUView.m in Sources */ = {isa = PBXBuildFile; fileRef = 565C48961D6597E40084E312 /* NEUView.m */; };
+		565C489B1D6598150084E312 /* NEUViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 565C489A1D6598150084E312 /* NEUViewModel.m */; };
+		565C489F1D6598690084E312 /* NEUTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 565C489E1D6598690084E312 /* NEUTableViewCell.m */; };
+		565C48A31D6598D30084E312 /* NEUNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565C48A21D6598D30084E312 /* NEUNavigationController.m */; };
+		567352581D5B03AE0030AC37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 567352571D5B03AE0030AC37 /* main.m */; };
+		5673525B1D5B03AE0030AC37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5673525A1D5B03AE0030AC37 /* AppDelegate.m */; };
+		5673525E1D5B03AE0030AC37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5673525D1D5B03AE0030AC37 /* ViewController.m */; };
+		567352611D5B03AE0030AC37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5673525F1D5B03AE0030AC37 /* Main.storyboard */; };
+		567352631D5B03AE0030AC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567352621D5B03AE0030AC37 /* Assets.xcassets */; };
+		567352661D5B03AE0030AC37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567352641D5B03AE0030AC37 /* LaunchScreen.storyboard */; };
+		567352711D5B03AE0030AC37 /* NeuronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 567352701D5B03AE0030AC37 /* NeuronTests.m */; };
+		5673527C1D5B03AE0030AC37 /* NeuronUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5673527B1D5B03AE0030AC37 /* NeuronUITests.m */; };
+		567352A21D5B0D720030AC37 /* TestMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567352A11D5B0D720030AC37 /* TestMVVMViewController.m */; };
+		DB535B5D63D75C982FDF5C32 /* Pods_Neuron.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E68E3E53C06F9D4ED13A4A /* Pods_Neuron.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5673526D1D5B03AE0030AC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5673524B1D5B03AE0030AC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567352521D5B03AE0030AC37;
+			remoteInfo = Neuron;
+		};
+		567352781D5B03AE0030AC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5673524B1D5B03AE0030AC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567352521D5B03AE0030AC37;
+			remoteInfo = Neuron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20A72F17EC60BCAF56438417 /* Pods-Neuron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neuron.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Neuron/Pods-Neuron.debug.xcconfig"; sourceTree = "<group>"; };
+		3AE9D24C8C58302AF95CD2AF /* Pods-Neuron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neuron.release.xcconfig"; path = "Pods/Target Support Files/Pods-Neuron/Pods-Neuron.release.xcconfig"; sourceTree = "<group>"; };
+		565C48911D65977B0084E312 /* NEUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUViewController.h; sourceTree = "<group>"; };
+		565C48921D65977B0084E312 /* NEUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUViewController.m; sourceTree = "<group>"; };
+		565C48941D6597AC0084E312 /* NEUViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUViewControllerProtocol.h; sourceTree = "<group>"; };
+		565C48951D6597E40084E312 /* NEUView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUView.h; sourceTree = "<group>"; };
+		565C48961D6597E40084E312 /* NEUView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUView.m; sourceTree = "<group>"; };
+		565C48981D6597F70084E312 /* NEUViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUViewProtocol.h; sourceTree = "<group>"; };
+		565C48991D6598150084E312 /* NEUViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUViewModel.h; sourceTree = "<group>"; };
+		565C489A1D6598150084E312 /* NEUViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUViewModel.m; sourceTree = "<group>"; };
+		565C489C1D6598360084E312 /* NEUViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUViewModelProtocol.h; sourceTree = "<group>"; };
+		565C489D1D6598690084E312 /* NEUTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUTableViewCell.h; sourceTree = "<group>"; };
+		565C489E1D6598690084E312 /* NEUTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUTableViewCell.m; sourceTree = "<group>"; };
+		565C48A01D6598780084E312 /* NEUTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUTableViewCellProtocol.h; sourceTree = "<group>"; };
+		565C48A11D6598D30084E312 /* NEUNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUNavigationController.h; sourceTree = "<group>"; };
+		565C48A21D6598D30084E312 /* NEUNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUNavigationController.m; sourceTree = "<group>"; };
+		567352531D5B03AE0030AC37 /* Neuron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567352571D5B03AE0030AC37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		567352591D5B03AE0030AC37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Neuron/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		5673525A1D5B03AE0030AC37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Neuron/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		5673525C1D5B03AE0030AC37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../ViewController.h; sourceTree = "<group>"; };
+		5673525D1D5B03AE0030AC37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../ViewController.m; sourceTree = "<group>"; };
+		567352601D5B03AE0030AC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		567352621D5B03AE0030AC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		567352651D5B03AE0030AC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		567352671D5B03AE0030AC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		5673526C1D5B03AE0030AC37 /* NeuronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567352701D5B03AE0030AC37 /* NeuronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuronTests.m; sourceTree = "<group>"; };
+		567352721D5B03AE0030AC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567352771D5B03AE0030AC37 /* NeuronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5673527B1D5B03AE0030AC37 /* NeuronUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuronUITests.m; sourceTree = "<group>"; };
+		5673527D1D5B03AE0030AC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567352A01D5B0D720030AC37 /* TestMVVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMVVMViewController.h; sourceTree = "<group>"; };
+		567352A11D5B0D720030AC37 /* TestMVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMVVMViewController.m; sourceTree = "<group>"; };
+		567352AA1D5B1C8F0030AC37 /* LixMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LixMacro.h; sourceTree = "<group>"; };
+		567352AB1D5B1DE80030AC37 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Neuron/Class/General/Public/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		72E68E3E53C06F9D4ED13A4A /* Pods_Neuron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neuron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567352501D5B03AE0030AC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB535B5D63D75C982FDF5C32 /* Pods_Neuron.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567352691D5B03AE0030AC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567352741D5B03AE0030AC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2699053E10D5D310D4696133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72E68E3E53C06F9D4ED13A4A /* Pods_Neuron.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5673524A1D5B03AE0030AC37 = {
+			isa = PBXGroup;
+			children = (
+				567352551D5B03AE0030AC37 /* Neuron */,
+				5673526F1D5B03AE0030AC37 /* NeuronTests */,
+				5673527A1D5B03AE0030AC37 /* NeuronUITests */,
+				567352541D5B03AE0030AC37 /* Products */,
+				F5EBDD58AF5E65F21C85A37C /* Pods */,
+				2699053E10D5D310D4696133 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		567352541D5B03AE0030AC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567352531D5B03AE0030AC37 /* Neuron.app */,
+				5673526C1D5B03AE0030AC37 /* NeuronTests.xctest */,
+				567352771D5B03AE0030AC37 /* NeuronUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567352551D5B03AE0030AC37 /* Neuron */ = {
+			isa = PBXGroup;
+			children = (
+				5673529A1D5B06930030AC37 /* AppDelegate */,
+				5673528E1D5B068C0030AC37 /* Classes */,
+				567352891D5B06850030AC37 /* Resource */,
+				567352561D5B03AE0030AC37 /* Supporting Files */,
+			);
+			path = Neuron;
+			sourceTree = "<group>";
+		};
+		567352561D5B03AE0030AC37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				567352571D5B03AE0030AC37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5673526F1D5B03AE0030AC37 /* NeuronTests */ = {
+			isa = PBXGroup;
+			children = (
+				567352701D5B03AE0030AC37 /* NeuronTests.m */,
+				567352721D5B03AE0030AC37 /* Info.plist */,
+			);
+			path = NeuronTests;
+			sourceTree = "<group>";
+		};
+		5673527A1D5B03AE0030AC37 /* NeuronUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5673527B1D5B03AE0030AC37 /* NeuronUITests.m */,
+				5673527D1D5B03AE0030AC37 /* Info.plist */,
+			);
+			path = NeuronUITests;
+			sourceTree = "<group>";
+		};
+		567352891D5B06850030AC37 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5673528A1D5B06850030AC37 /* Fonts */,
+				5673528B1D5B06850030AC37 /* Images */,
+				5673528C1D5B06850030AC37 /* Sounds */,
+				5673528D1D5B06850030AC37 /* Videos */,
+				567352621D5B03AE0030AC37 /* Assets.xcassets */,
+				567352671D5B03AE0030AC37 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5673528A1D5B06850030AC37 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5673528B1D5B06850030AC37 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5673528C1D5B06850030AC37 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		5673528D1D5B06850030AC37 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		5673528E1D5B068C0030AC37 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5673528F1D5B068C0030AC37 /* General */,
+				567352961D5B068C0030AC37 /* Helper */,
+				567352971D5B068C0030AC37 /* Macro */,
+				567352981D5B068C0030AC37 /* Sections */,
+				567352991D5B068C0030AC37 /* Vendors */,
+			);
+			name = Classes;
+			path = Class;
+			sourceTree = "<group>";
+		};
+		5673528F1D5B068C0030AC37 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				567352901D5B068C0030AC37 /* Base */,
+				567352911D5B068C0030AC37 /* Catagory */,
+				567352921D5B068C0030AC37 /* Global */,
+				567352931D5B068C0030AC37 /* Models */,
+				567352941D5B068C0030AC37 /* Public */,
+				567352951D5B068C0030AC37 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		567352901D5B068C0030AC37 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				565C48911D65977B0084E312 /* NEUViewController.h */,
+				565C48921D65977B0084E312 /* NEUViewController.m */,
+				565C48941D6597AC0084E312 /* NEUViewControllerProtocol.h */,
+				565C48951D6597E40084E312 /* NEUView.h */,
+				565C48961D6597E40084E312 /* NEUView.m */,
+				565C48981D6597F70084E312 /* NEUViewProtocol.h */,
+				565C48991D6598150084E312 /* NEUViewModel.h */,
+				565C489A1D6598150084E312 /* NEUViewModel.m */,
+				565C489C1D6598360084E312 /* NEUViewModelProtocol.h */,
+				565C489D1D6598690084E312 /* NEUTableViewCell.h */,
+				565C489E1D6598690084E312 /* NEUTableViewCell.m */,
+				565C48A01D6598780084E312 /* NEUTableViewCellProtocol.h */,
+				565C48A11D6598D30084E312 /* NEUNavigationController.h */,
+				565C48A21D6598D30084E312 /* NEUNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		567352911D5B068C0030AC37 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		567352921D5B068C0030AC37 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				567352AB1D5B1DE80030AC37 /* PrefixHeader.pch */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		567352931D5B068C0030AC37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		567352941D5B068C0030AC37 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				5673525C1D5B03AE0030AC37 /* ViewController.h */,
+				5673525D1D5B03AE0030AC37 /* ViewController.m */,
+				5673525F1D5B03AE0030AC37 /* Main.storyboard */,
+				567352641D5B03AE0030AC37 /* LaunchScreen.storyboard */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		567352951D5B068C0030AC37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		567352961D5B068C0030AC37 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		567352971D5B068C0030AC37 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				567352AA1D5B1C8F0030AC37 /* LixMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		567352981D5B068C0030AC37 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				5673529B1D5B0D4B0030AC37 /* TestMVVM */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		567352991D5B068C0030AC37 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		5673529A1D5B06930030AC37 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				567352591D5B03AE0030AC37 /* AppDelegate.h */,
+				5673525A1D5B03AE0030AC37 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5673529B1D5B0D4B0030AC37 /* TestMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5673529C1D5B0D4B0030AC37 /* Controller */,
+				5673529D1D5B0D4C0030AC37 /* Model */,
+				5673529E1D5B0D4C0030AC37 /* View */,
+				5673529F1D5B0D4C0030AC37 /* ViewModel */,
+			);
+			path = TestMVVM;
+			sourceTree = "<group>";
+		};
+		5673529C1D5B0D4B0030AC37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				567352A01D5B0D720030AC37 /* TestMVVMViewController.h */,
+				567352A11D5B0D720030AC37 /* TestMVVMViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5673529D1D5B0D4C0030AC37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5673529E1D5B0D4C0030AC37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5673529F1D5B0D4C0030AC37 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F5EBDD58AF5E65F21C85A37C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20A72F17EC60BCAF56438417 /* Pods-Neuron.debug.xcconfig */,
+				3AE9D24C8C58302AF95CD2AF /* Pods-Neuron.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567352521D5B03AE0030AC37 /* Neuron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567352801D5B03AE0030AC37 /* Build configuration list for PBXNativeTarget "Neuron" */;
+			buildPhases = (
+				56CE9FFBFCD916A868A00668 /* Check Pods Manifest.lock */,
+				5673524F1D5B03AE0030AC37 /* Sources */,
+				567352501D5B03AE0030AC37 /* Frameworks */,
+				567352511D5B03AE0030AC37 /* Resources */,
+				016B1BD6DA5AAD552B1875BC /* Embed Pods Frameworks */,
+				16101EF55F7DAEB8143D61E6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neuron;
+			productName = Neuron;
+			productReference = 567352531D5B03AE0030AC37 /* Neuron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5673526B1D5B03AE0030AC37 /* NeuronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567352831D5B03AE0030AC37 /* Build configuration list for PBXNativeTarget "NeuronTests" */;
+			buildPhases = (
+				567352681D5B03AE0030AC37 /* Sources */,
+				567352691D5B03AE0030AC37 /* Frameworks */,
+				5673526A1D5B03AE0030AC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5673526E1D5B03AE0030AC37 /* PBXTargetDependency */,
+			);
+			name = NeuronTests;
+			productName = NeuronTests;
+			productReference = 5673526C1D5B03AE0030AC37 /* NeuronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		567352761D5B03AE0030AC37 /* NeuronUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567352861D5B03AE0030AC37 /* Build configuration list for PBXNativeTarget "NeuronUITests" */;
+			buildPhases = (
+				567352731D5B03AE0030AC37 /* Sources */,
+				567352741D5B03AE0030AC37 /* Frameworks */,
+				567352751D5B03AE0030AC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567352791D5B03AE0030AC37 /* PBXTargetDependency */,
+			);
+			name = NeuronUITests;
+			productName = NeuronUITests;
+			productReference = 567352771D5B03AE0030AC37 /* NeuronUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5673524B1D5B03AE0030AC37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Lix;
+				TargetAttributes = {
+					567352521D5B03AE0030AC37 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5673526B1D5B03AE0030AC37 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 567352521D5B03AE0030AC37;
+					};
+					567352761D5B03AE0030AC37 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 567352521D5B03AE0030AC37;
+					};
+				};
+			};
+			buildConfigurationList = 5673524E1D5B03AE0030AC37 /* Build configuration list for PBXProject "Neuron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5673524A1D5B03AE0030AC37;
+			productRefGroup = 567352541D5B03AE0030AC37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567352521D5B03AE0030AC37 /* Neuron */,
+				5673526B1D5B03AE0030AC37 /* NeuronTests */,
+				567352761D5B03AE0030AC37 /* NeuronUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567352511D5B03AE0030AC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567352661D5B03AE0030AC37 /* LaunchScreen.storyboard in Resources */,
+				567352631D5B03AE0030AC37 /* Assets.xcassets in Resources */,
+				567352611D5B03AE0030AC37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673526A1D5B03AE0030AC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567352751D5B03AE0030AC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016B1BD6DA5AAD552B1875BC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neuron/Pods-Neuron-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16101EF55F7DAEB8143D61E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neuron/Pods-Neuron-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56CE9FFBFCD916A868A00668 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5673524F1D5B03AE0030AC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565C489F1D6598690084E312 /* NEUTableViewCell.m in Sources */,
+				567352A21D5B0D720030AC37 /* TestMVVMViewController.m in Sources */,
+				565C48931D65977B0084E312 /* NEUViewController.m in Sources */,
+				5673525E1D5B03AE0030AC37 /* ViewController.m in Sources */,
+				5673525B1D5B03AE0030AC37 /* AppDelegate.m in Sources */,
+				565C48A31D6598D30084E312 /* NEUNavigationController.m in Sources */,
+				567352581D5B03AE0030AC37 /* main.m in Sources */,
+				565C48971D6597E40084E312 /* NEUView.m in Sources */,
+				565C489B1D6598150084E312 /* NEUViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567352681D5B03AE0030AC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567352711D5B03AE0030AC37 /* NeuronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567352731D5B03AE0030AC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5673527C1D5B03AE0030AC37 /* NeuronUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5673526E1D5B03AE0030AC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567352521D5B03AE0030AC37 /* Neuron */;
+			targetProxy = 5673526D1D5B03AE0030AC37 /* PBXContainerItemProxy */;
+		};
+		567352791D5B03AE0030AC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567352521D5B03AE0030AC37 /* Neuron */;
+			targetProxy = 567352781D5B03AE0030AC37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5673525F1D5B03AE0030AC37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567352601D5B03AE0030AC37 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		567352641D5B03AE0030AC37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567352651D5B03AE0030AC37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5673527E1D5B03AE0030AC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5673527F1D5B03AE0030AC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567352811D5B03AE0030AC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A72F17EC60BCAF56438417 /* Pods-Neuron.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Neuron/Class/General/Public/PrefixHeader.pch";
+				INFOPLIST_FILE = Neuron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lix.Neuron.Neuron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		567352821D5B03AE0030AC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE9D24C8C58302AF95CD2AF /* Pods-Neuron.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Neuron/Class/General/Public/PrefixHeader.pch";
+				INFOPLIST_FILE = Neuron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lix.Neuron.Neuron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		567352841D5B03AE0030AC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeuronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lix.Neuron.NeuronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuron.app/Neuron";
+			};
+			name = Debug;
+		};
+		567352851D5B03AE0030AC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeuronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lix.Neuron.NeuronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuron.app/Neuron";
+			};
+			name = Release;
+		};
+		567352871D5B03AE0030AC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeuronUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lix.Neuron.NeuronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Neuron;
+			};
+			name = Debug;
+		};
+		567352881D5B03AE0030AC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeuronUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lix.Neuron.NeuronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Neuron;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5673524E1D5B03AE0030AC37 /* Build configuration list for PBXProject "Neuron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5673527E1D5B03AE0030AC37 /* Debug */,
+				5673527F1D5B03AE0030AC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567352801D5B03AE0030AC37 /* Build configuration list for PBXNativeTarget "Neuron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567352811D5B03AE0030AC37 /* Debug */,
+				567352821D5B03AE0030AC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567352831D5B03AE0030AC37 /* Build configuration list for PBXNativeTarget "NeuronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567352841D5B03AE0030AC37 /* Debug */,
+				567352851D5B03AE0030AC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567352861D5B03AE0030AC37 /* Build configuration list for PBXNativeTarget "NeuronUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567352871D5B03AE0030AC37 /* Debug */,
+				567352881D5B03AE0030AC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5673524B1D5B03AE0030AC37 /* Project object */;
+}

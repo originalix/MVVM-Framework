@@ -1,0 +1,16 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Neuron' do
+  pod 'Masonry', '~> 1.0.1'
+  pod 'ReactiveCocoa', '~> 4.2.1'
+  pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'YYModel', '~> 1.0.4'
+  pod 'YYWebImage', '~> 1.0.4'
+  pod 'YTKNetwork'
+  pod 'AFNetworking', '~> 2.6.3'
+  pod 'YYCache'
+  pod 'YYImage'
+  pod 'IQKeyboardManager'
+end

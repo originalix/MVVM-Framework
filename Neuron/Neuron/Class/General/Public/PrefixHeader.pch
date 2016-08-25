@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  Neuron
+//
+//  Created by Lix on 16/8/10.
+//  Copyright © 2016年 Lix. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//------------常用的宏定义----------------
+#import "LixMacro.h"
+
+//------------常用项目头文件--------------
+#import "AppDelegate.h"
+
+//------------常用的第三方库--------------
+#import "ReactiveCocoa.h"
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "YTKNetwork.h"
+#import "YYModel.h"
+#import "YYCache.h"
+#import "YYImage.h"
+#import "YYWebImage.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+#import "IQKeyboardManager.h"
+
+
+#endif /* PrefixHeader_pch */
+//$(SRCROOT)/Neuron/Class/General/Public/PrefixHeader.pch
